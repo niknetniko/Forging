@@ -1,0 +1,19 @@
+/*=================================*/
+/* Forging Theme
+/* By: Zohma (Barry Anders)
+/* http: //github.com/zohma
+/*=================================*/
+
+/* Structure Styles
+/*---------------------------------------------*/
+
+#content {
+  padding-top: 11px;
+}
+
+#footer {
+	padding: 60px 0;
+	margin-top: 40px;
+	background: #f1f1f1;
+	text-align: center;
+}
