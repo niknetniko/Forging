@@ -40,5 +40,4 @@ jQuery(document).ready(function($){
 	$("nav ul a:not(:only-child)").append("<i class='icon-down-open-big'></i>").click(function(event) {
 		event.preventDefault();
 	});
-
 });
