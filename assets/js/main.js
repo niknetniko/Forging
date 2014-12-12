@@ -37,7 +37,5 @@ jQuery(document).ready(function($){
 		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
 	});
 
-	$("nav ul a:not(:only-child)").append("<i class='icon-down-open-big'></i>").click(function(event) {
-		event.preventDefault();
-	});
+	$("nav ul a:not(:only-child)").append("<i class='icon-down-open-big'></i>");
 });
