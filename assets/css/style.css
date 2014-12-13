@@ -210,7 +210,7 @@ main img.active {
 }
 
 @media print {
-	#header {
+	#header, #hide-images, #toc {
 		display: none;
 	}
 }
