@@ -49,13 +49,7 @@
 				{{ at_navigation.navigation }}
 			</div>
 		</nav>
-	</header>
-
-	<main id="content">
 		<div class="row">
-			{% for page in section_navigation.navigation %}
-			<a href="{{ page.url }}">{{ page.title }}</a><br>
-			{% endfor %}
 			<div class="twelve columns">
 				{% if breadcrumbs %}
 				<p>
@@ -67,6 +61,13 @@
 					<span data-fixed="top" class="small btn default" id="hide-images"><a href="#" class="toggle" data-trigger="img">Afbeeldingen tonen/verbergen</a></span>
 				</p>
 				{% endif %}
+			</div>
+		</div>
+	</header>
+
+	<main id="content">
+		<div class="row">
+			<div class="twelve columns">
 				{{ mcb_toc }}
 				{{ content }}
 			</div>

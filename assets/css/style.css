@@ -208,3 +208,9 @@ main img.active {
 	left: initial !important;
 	right: 20px;
 }
+
+@media print {
+	#header {
+		display: none;
+	}
+}
