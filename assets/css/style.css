@@ -213,4 +213,7 @@ main img.active {
 	#header, #hide-images, #toc {
 		display: none;
 	}
+	.alert.info {
+		background: white !important;
+	}
 }
