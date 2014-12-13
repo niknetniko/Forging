@@ -53,6 +53,9 @@
 
 	<main id="content">
 		<div class="row">
+			{% for page in section_navigation.navigation %}
+			<a href="{{ page.url }}">{{ page.title }}</a><br>
+			{% endfor %}
 			<div class="twelve columns">
 				{% if breadcrumbs %}
 				<p>
@@ -61,7 +64,7 @@
 					<i class="icon-right-open-mini"></i>
 					<a href="{{ crumb.url }}">{{ crumb.name }}</a>
 					{% endfor %}
-					<span class="small btn default" id="hide-images"><a href="#" class="toggle" gumby-trigger="img">Afbeeldingen tonen/verbergen</a></span>
+					<span data-fixed="top" class="small btn default" id="hide-images"><a href="#" class="toggle" data-trigger="img">Afbeeldingen tonen/verbergen</a></span>
 				</p>
 				{% endif %}
 				{{ mcb_toc }}

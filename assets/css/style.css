@@ -11,6 +11,10 @@ h1, h2, h3 {
 	padding-bottom: 1em !important;
 }
 
+main h3 {
+	padding-top: 1.5em !important;
+}
+
 html,
 body {
 	height: 100%;
@@ -197,4 +201,10 @@ main img.active {
 
 #hide-images {
 	float: right;
+	max-width: 190px;
+}
+
+#hide-images.fixed {
+	left: initial !important;
+	right: 20px;
 }
